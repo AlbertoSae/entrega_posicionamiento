@@ -75,7 +75,6 @@ li {
   border-style: dashed;
   position: relative;
   top: 230px;
-  text-align: center;
   justify-content: space-around;
   background-color: #1e333d;
   border-radius: 8px;  
@@ -84,11 +83,28 @@ li {
 
 .feature {
   position:relative;
-  padding: 15px;
+  padding: 5%;
   background-color: #142022;
   color: #d1f1ff;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2);
+}
+
+.feature> span{
+ position: absolute;
+ left: 50%;
+ bottom: 90%;
+}
+.feature> p{
+  position: absolute;
+  left: 45%;
+  top:50px;
+}
+
+.feature> button{
+  position: absolute;
+  left: 48%;
+  bottom: 20%;
 }
 
 
